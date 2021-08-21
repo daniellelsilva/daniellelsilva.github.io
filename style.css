@@ -1,0 +1,68 @@
+
+body{
+    font-family: 'Rubik', sans-serif;
+    background-color: rgb(255, 255, 255);
+    color:rgb(47, 62, 70);
+    line-height: 1.5;
+
+}
+
+.titulo{
+    font-family: 'Urbanist', sans-serif;
+    color: rgb(53, 79, 82);
+        
+}
+.picture{
+    margin-top: 0;
+    border-radius: 1%;
+    padding: 10px;
+    background-color: rgb(137, 176, 174);
+}
+.negrito{
+    font-weight: bold;
+}
+h1{
+    font-size: 30px;
+}
+h3{
+    font-size: 20px;
+
+}
+.listStyle{
+    font-size: 14px;
+}
+
+.meuNome{
+    border: 2px solid rgb(53, 79, 82);
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(250, 249, 249);
+    }
+
+.quemSouEu{
+    border: 2px solid rgb(53, 79, 82);
+    height: 420px;
+    padding: 20px;
+}
+
+.descricao{
+    float: right;
+    margin-right: 250px;
+}
+
+.textos{
+    margin-left: 20px;
+}
+
+ul li{
+    list-style: square;
+  }
+
+ul li:nth-child(odd){
+    max-width: 20%;
+    background-color: rgb(137, 176, 174);
+}
+
+#teste {
+    
+}

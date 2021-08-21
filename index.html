@@ -4,67 +4,51 @@
         <meta charset="utf-8">
         <title> Exercicio 3.1</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
 
-        <style>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@200&display=swap" rel="stylesheet">
 
-            body{
-                font-family: 'Rubik', sans-serif;
-                background-color: rgb(250, 250, 250);
-                color:rgb(85, 91, 110)
-            }
+        <link rel="stylesheet" href="style.css">
 
-            .titulo{
-                font-family: 'Raleway', sans-serif;
-                color: rgb(142, 145, 155);
-            }
-            .picture{
-                border-radius: 1%;
-            }
-            .negrito{
-                font-weight: bold;
-            }
-            h1{
-                font-size: 30px;
-            }
-            h3{
-                font-size: 20px;
-            }
-            .listStyle{
-                font-size: 14px;
-            }
-            
-        </style>
+
     </head>
+
     <body>
+        
+        <div class="meuNome">
         <h1 class="titulo">Danielle Silva</h1>
         <h3 class="titulo">Danielle Luisa da Silva</h3>
-        <br>
-        <hr>
-        <br>
+        </div>
+
+        <div class="textos">
         <h3 class="titulo">Índice</h3>
         <ol class="listStyle">
-            <li><a href="#imagem">Foto</a></li>
+            <li id="teste"><a href="#imagem">Foto</a></li>
             <li><a href="#apresentacao">Quem sou eu</a></li>
             <li><a href="#social">Onde me encontrar</a></li>
             <li><a href="#habilidades">Minahs habilidades</a></li>
             <li><a href="#blog">Blog que gosto</a></li>
         </ol>
-        <br>
-        <hr>
-        <br><br><br>
+        </div>
 
+        <div class="quemSouEu">
         <img class="picture" id="imagem" src="imagem2.jpg" alt="garota de óculos em frente a livros" width="300px">
-        <br><br>
-        <h3   class="titulo" id="apresentacao">Quem sou eu:</h3>
+        
+        <div class="descricao">
+        <h3 class="titulo" id="apresentacao">Quem sou eu:</h3>
         <p>Meu nome é Danielle, tenho 25 anos (atualmente), nasci no Rio Grande do Sul mas moro em Guaramirim - Santa Catarina há mais ou menos 9 anos.</p>
-        <br>
+        </div>
+        </div>
+
+        <div class="textos">
         <h3 class="titulo" id="social">Onde me encontrar</h3>
         <a href="https://www.linkedin.com/in/danielle-lsilva/" target="_blank" class="listStyle" >LinkedIn</a>
         <a href="https://github.com/daniellelsilva" target="_blank" class="listStyle"> GithHub</a>
         <a href="https://www.instagram.com/ls_danielle/" target="_blank" class="listStyle">Intagram</a>
-        <br><br>
+        
         <h3 class="titulo" id="habilidades">Minhas habilidades:</h3>
         <ul class="listStyle">
             <li>Consigo me comunicar bem</li>
@@ -73,9 +57,10 @@
             <li class="negrito">Focada</li>
             <li>Diplomata</li>
         </ul>
-        <br>
+        
         <h3 class="titulo" id="blog">Blog que gosto:</h3>
         <a href="https://blog.betrybe.com/" target="_blank">Blog</a>
-        <br><br><br>
+        </div> <br>
+        
     </body>
 </html>
